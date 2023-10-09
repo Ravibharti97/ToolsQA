@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	
+	<test name="Toolsqa_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Toolsqa_test"/>
+	  </classes>
+  </test> <!-- Test -->
+	<test name="Radiobutton_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Radiobutton_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="Toolsqa_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Webtables_Test"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="Buttons_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Buttons_test"/>
+	  </classes>
+  </test> <!-- Test -->
+   <test name="BrokenImage_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.BrokenImage_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test name="UploadDownload_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.UploadDownload_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Dynamic_Properties_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Dynamic_Properties_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Form_test" enabled="true">
+	  <classes> 
+		  <class name="toolsqa_tests.Form_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   
+  <test name="Checkbox_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Checkbox_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+ <test name="BrowserWindows_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.BrowserWindows_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Alearts_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Alearts_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test name="Frames_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Frames_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test name="Nested_Frame_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Nested_Frame_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Webtables_Test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Webtables_Test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="ModalDialogs_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.ModalDialogs_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Links_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Links_test"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test name="Widgets_test" enabled="false">
+	  <classes> 
+		  <class name="toolsqa_tests.Widgets_test"/>
+	  </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

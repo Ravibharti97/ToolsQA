@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T12:06:45 IST" name="Suite" finished-at="2023-09-13T12:07:22 IST" duration-ms="37735">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T12:06:45 IST" name="Form_test" finished-at="2023-09-13T12:07:22 IST" duration-ms="37735">
+      <class name="toolsqa_tests.Form_test">
+        <test-method is-config="true" signature="Setupbrowser(java.lang.String)[pri:0, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:06:43 IST" name="Setupbrowser" finished-at="2023-09-13T12:06:45 IST" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setupbrowser -->
+        <test-method is-config="true" signature="Setupbrowser()[pri:0, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:06:45 IST" name="Setupbrowser" finished-at="2023-09-13T12:07:11 IST" duration-ms="26821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setupbrowser -->
+        <test-method signature="ClickOnFormBtn()[pri:1, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:07:11 IST" name="ClickOnFormBtn" finished-at="2023-09-13T12:07:12 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnFormBtn -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:07:12 IST" name="getanalysis" finished-at="2023-09-13T12:07:12 IST" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnFormBtn status=SUCCESS method=Form_test.ClickOnFormBtn()[pri:1, instance:toolsqa_tests.Form_test@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="FillForm()[pri:2, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:07:12 IST" name="FillForm" finished-at="2023-09-13T12:07:22 IST" duration-ms="9957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:07:22 IST" name="getanalysis" finished-at="2023-09-13T12:07:22 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FillForm status=SUCCESS method=Form_test.FillForm()[pri:2, instance:toolsqa_tests.Form_test@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:toolsqa_tests.Form_test@389b0789]" started-at="2023-09-13T12:07:22 IST" name="teardown" finished-at="2023-09-13T12:07:22 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- toolsqa_tests.Form_test -->
+    </test> <!-- Form_test -->
+  </suite> <!-- Suite -->
+</testng-results>
